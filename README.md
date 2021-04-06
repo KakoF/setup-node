@@ -11,8 +11,17 @@ npm install
 ## Bibliotecas de database adicionadas
 
 ```bash
-typescript -D
+@types/express -D
+@typescript-eslint/eslint-plugin -D
+@typescript-eslint/parser -D
+eslint -D
+eslint-config-standard -D
+eslint-plugin-import -D
+eslint-plugin-node -D
+eslint-plugin-promise -D
 ts-node-dev -D (tsc(typescript para js), node, nodemon)
+typescript -D
+jest -D
 
 express
 ```
@@ -20,8 +29,9 @@ express
 ## Scripts
 
 ```bash
-run:yarn dev
-build:yarn start
+run: yarn dev
+build: yarn start
+test: yarn test
 ```
 
 ## Alguns comandos executados
